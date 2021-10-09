@@ -73,6 +73,8 @@
 		5469F4AF24B30E1500537F8A /* LayoutAnchoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutAnchoring.swift; sourceTree = "<group>"; };
 		5469F4B124B30F1100537F8A /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
 		5469F4B324B30F3500537F8A /* LayoutReferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutReferences.swift; sourceTree = "<group>"; };
+		54713574271132390011F3FB /* FloatingPanel.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FloatingPanel.docc; sourceTree = "<group>"; };
+		54713575271132390011F3FB /* FloatingPanel 2.0 Migration Guide.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "FloatingPanel 2.0 Migration Guide.md"; sourceTree = "<group>"; };
 		549C371E2361E15D007D8058 /* ExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
 		549E944422CF295D0050AECF /* StateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateTests.swift; sourceTree = "<group>"; };
 		54A6B6B022968B530077F348 /* CoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTests.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 		545DB9B72151169500CA77B8 = {
 			isa = PBXGroup;
 			children = (
+				54713573271132390011F3FB /* Documentation */,
 				545DB9C32151169500CA77B8 /* Sources */,
 				545DB9CE2151169500CA77B8 /* Tests */,
 				545DB9C22151169500CA77B8 /* Products */,
@@ -134,6 +137,7 @@
 		545DB9C32151169500CA77B8 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				54713574271132390011F3FB /* FloatingPanel.docc */,
 				545DB9DF21511AC100CA77B8 /* Controller.swift */,
 				5469F4AD24B30D7E00537F8A /* State.swift */,
 				5469F4B124B30F1100537F8A /* Position.swift */,
@@ -179,6 +183,14 @@
 				5469F4A124B003EF00537F8A /* Info.plist */,
 			);
 			path = TestingApp;
+			sourceTree = "<group>";
+		};
+		54713573271132390011F3FB /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				54713575271132390011F3FB /* FloatingPanel 2.0 Migration Guide.md */,
+			);
+			path = Documentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
